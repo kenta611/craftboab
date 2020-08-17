@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>shop</title>
+</head>
+<body>
+
+  <p>Please enter your information</p>
+  <form method="post" action="shop_form_check.php">
+    <label for="name2">Name</label><br/>
+    <input type="text" name="onamae" id="name2" style="width:200px"><br/>
+    <label for="email">E-mail</label><br/>
+    <input type="text" name="email" id="email" style="width:200px"><br/>
+    <label for="zip">Zipcode</label><br/>
+    <input type="text" name="zip" id="zip" style="width:100px"><br/>
+    <label for="address">Address</label><br/>
+    <input type="text" name="address" style="width:500px"><br/>
+    <label for="tel">Contact number</label><br/>
+    <input type="text" name="tel" id="tel" style="width:150px"><br/>
+    <br/>
+    <input type="radio" name="order" value="onetime" checked>One time purchase<br/>
+    <input type="radio" name="order" value="regist">Registration<br/>
+    <br/>
+    --To join our member. Please fill out below form<br/>
+    <br/>
+    Please type your password:<br/>
+    <input type="password" name="pass" style="width:100px"><br/>
+    Please confirm password:<br/>
+    <input type="password" name="pass2" style="width:100px"><br/>
+    sex:<br/>
+    <input type="radio" name="sex" value="m" checked>Man<br/>
+    <input type="radio" name="sex" value="w">Woman<br/>
+    <br/>
+    Year of the birth:<br/>
+    <select name="birth">
+      <option value="1910">1910</option>
+      <option value="1920">1920</option>
+      <option value="1930">1930</option>
+      <option value="1940">1940</option>
+      <option value="1950">1950</option>
+      <option value="1960">1960</option>
+      <option value="1970">1970</option>
+      <option value="1980" selected>1980</option>
+      <option value="1990">1990</option>
+      <option value="2000">2000</option>
+      <option value="2010">2010</option>
+    </select>
+    <br/>
+    <br/>
+
+    <input type="button" onclick="history.back()" value="Back"><br/>
+    <input type="submit" value="submit"><br/>
+  </form>
+</body>
+</html>
